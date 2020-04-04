@@ -263,7 +263,8 @@ portals <- function(){
       "Minist\u00E8re de l'Education Nationale, de l'Enseignement sup\u00E9rieur et de la Recherche",
       "ERDF",
       "RTE",
-      "OpenDataSoft Public"
+      "OpenDataSoft Public",
+      "Nantes M\u00E9tropole"
     ),
     portals = c(
       "ratp",
@@ -280,7 +281,8 @@ portals <- function(){
       "enesr",
       "erdf", 
       "rte",
-      "ods"
+      "ods",
+      "nantes"
     ),
     base_urls = c(
       "http://data.ratp.fr",
@@ -297,7 +299,8 @@ portals <- function(){
       "http://data.enseignementsup-recherche.gouv.fr",
       "https://data.erdf.fr", 
       "https://opendata.rte-france.com",
-      "https://public.opendatasoft.com"
+      "https://public.opendatasoft.com",
+      "https://data.nantesmetropole.fr"
     )
   )
 }
