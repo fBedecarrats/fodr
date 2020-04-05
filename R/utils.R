@@ -252,7 +252,7 @@ portals <- function(){
       "RATP",
       "R\u00E9gion Ile-de-France",
       "Infogreffe",
-      "Nantes M\u00E9tropole",
+      "Toulouse M\u00E9tropole",
       "STAR",
       "Issy-les-Moulineaux",
       "STIF",
@@ -263,13 +263,14 @@ portals <- function(){
       "Minist\u00E8re de l'Education Nationale, de l'Enseignement sup\u00E9rieur et de la Recherche",
       "ERDF",
       "RTE",
-      "OpenDataSoft Public"
+      "OpenDataSoft Public",
+      "Nantes M\u00E9tropole"
     ),
     portals = c(
       "ratp",
       "iledefrance",
       "infogreffe",
-      "nantes",
+      "toulouse",
       "star",
       "issy",
       "stif",
@@ -280,13 +281,14 @@ portals <- function(){
       "enesr",
       "erdf", 
       "rte",
-      "ods"
+      "ods",
+      "nantesmetropole"
     ),
     base_urls = c(
       "http://data.ratp.fr",
       "http://data.iledefrance.fr",
       "http://datainfogreffe.fr",
-      "https://data.nantesmetropole.fr",
+      "https://data.toulouse.fr",
       "https://data.explore.star.fr",
       "http://data.issy.com",
       "http://opendata.stif.info",
@@ -297,7 +299,8 @@ portals <- function(){
       "http://data.enseignementsup-recherche.gouv.fr",
       "https://data.erdf.fr", 
       "https://opendata.rte-france.com",
-      "https://public.opendatasoft.com"
+      "https://public.opendatasoft.com",
+      "https://data.nantesmetropole.fr"
     )
   )
 }
